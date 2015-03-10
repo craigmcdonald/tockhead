@@ -13,7 +13,7 @@ module Tockhead
       end
 
       def temp_code
-        File.open('tmp/auth_code').read rescue nil  # temporary development set-up.
+        File.open('tmp/auth_code').read rescue nil   # temporary development set-up.
       end
 
       private
